@@ -25,3 +25,6 @@ RUN pip install --no-cache-dir awscli \
 
 # boto3 v1.9.117
 RUN pip install --no-cache-dir boto3
+
+# Install git
+RUN apk add git
